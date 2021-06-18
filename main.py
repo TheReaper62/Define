@@ -313,9 +313,7 @@ async def generate_question(message,subject="Random",challenge=False):
         async with message.channel.typing():
             embed=discord.Embed(title="Evaluating Response",colour=discord.Colour.green())
             embed.set_thumbnail(url="https://emoji.gg/assets/emoji/loading.gif")
-            sleep = random.uniform(0.1, 2.0)
-            await message.channel.send(embed=embed,delete_after=sleep)
-            await asyncio.sleep(sleep)
+            await message.channel.send(embed=embed,delete_after=1)
         print("Befor Retun EMbed",challenge)
         if challenge==True:
             embed=return_embed(message.author.name,correctness_colour,model_awnser,response,score,encouragement,hide="challenge")
@@ -472,38 +470,8 @@ async def ping(ctx):
     title=f"Client Latency\n{round(client.latency*1000,2)}ms",
     description = f"Client Shards:\n**Coming Soon!!!**",colour=discord.Colour.green()))
 
-@client.command(aliases=["?"])
-async def help(ctx):
-  embed = discord.Embed(
-    title = "Help Menu",
-    description = "*New here?* __Read the Instructions__ and set up your account in under **__30 Seconds__!!!**",
-    colour = discord.Colour.green()
-  )
-  placeholder =  '''
-  1) Create an account by doing `def profile`
-  2) Get your relevant subject roles by doing `def roles`
-  3) To Remove Roles, do `def rroles`
-  4) Now you can start doing questions!!!
-  *Follow the Steps below*
-  '''
-  embed.add_field(name = "**__Setting Up a NEW Account__**",value = placeholder,inline=False)
-  placeholder = '''
-  You can do a question by doing `def`.
-  Type your awnser normally to respond.
-  There is a 60 Seconds Timeout.
-
-  If you want to do a specific topic you can:
-  **EITHER**
-  Remove the other roles temporarily
-  **OR**
-  Do `def-subject name`
-  Example
-  `def-computing`
-  '''
-  embed.add_field(name = "**__Doing Questions__**",value = placeholder,inline=False)
-  embed.set_author(name = "Fishball_Noodles#7209")
-  embed.set_footer(text='You may contact Fishball_Noodles#7209 if any problems arises')
-  await ctx.send(embed=embed)
+#Help Command changed to Cog
+client.load_extension("cogs.help")
 
 @client.command(aliases=["eval"])
 async def evaluate(ctx,*,expression):
@@ -939,7 +907,7 @@ async def challenge(ctx,subject="Random"):
 
 if __name__ == "__main__":
   client.loop.create_task(change_p())
-  #client.loop.create_task(list_bday())
+  client.loop.create_task(list_bday())
   constant_ping.keep_alive()
   from dotenv import load_dotenv
   print(load_dotenv())
