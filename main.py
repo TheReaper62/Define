@@ -781,8 +781,11 @@ async def bot_stat(ctx):
 
 @client.command()
 async def invite(ctx):
-  await ctx.send("You can invite the bot to your server (no requirements) - https://discord.com/api/oauth2/authorize?client_id=809441761730494534&permissions=2148006992&scope=bot")
-
+    await ctx.send(embed=discord.Embed(
+    title = 'Invite Bot',
+    description = "You can invite the bot to your server [here](https://discord.com/oauth2/authorize?client_id=809441761730494534&permissions=248896&scope=bot) (no requirements)",
+    colour = discord.Colour.blurple()
+  ))
 @client.command()
 async def status(ctx):
   await ctx.send(embed=discord.Embed(
