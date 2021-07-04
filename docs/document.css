@@ -15,6 +15,8 @@ main {
   max-height: 100vh;
   overflow-x: hidden !important;
   overflow-y: hidden;
+  position: relative;
+  overflow-y: scroll
 }
 
 .b-example-divider {
@@ -90,6 +92,7 @@ main {
 
 .content-block {
     padding: 10px;
+    width: 80%;
     border: 5px solid;
     border-color: #969696;
     border-radius: 10px;
