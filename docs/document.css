@@ -13,7 +13,7 @@ main {
   height: 100vh;
   height: -webkit-fill-available;
   max-height: 100vh;
-  overflow-x: auto;
+  overflow-x: hidden !important;
   overflow-y: hidden;
 }
 
@@ -101,4 +101,8 @@ main {
     border-color: #2de38e;
     border-radius: 30px;
     background-color: #30ff9f;
+}
+
+.a-nodeco {
+    text-decoration: none;
 }

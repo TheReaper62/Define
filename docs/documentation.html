@@ -42,7 +42,7 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
   <symbol id="bootstrap" viewBox="0 0 118 94">
-    <title>Bootstrap</title>
+    <title>Define</title>
     <path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"></path>
   </symbol>
   <symbol id="home" viewBox="0 0 16 16">
@@ -113,10 +113,10 @@
         <div class="collapse show" id="home-collapse">
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
             <li><a href="#jump_settingup" class="link-dark rounded">Setting Up</a></li>
-            <li><a href="#" class="link-dark rounded">Roles</a></li>
-            <li><a href="#" class="link-dark rounded">Answering</a></li>
-            <li><a href="#" class="link-dark rounded">Questions</a></li>
-            <li><a href="#" class="link-dark rounded">Challenges</a></li>
+            <li><a href="#jump_roles" class="link-dark rounded">Roles</a></li>
+            <li><a href="#jump_answering" class="link-dark rounded">Answering</a></li>
+            <li><a href="#jump_questions" class="link-dark rounded">Questions</a></li>
+            <li><a href="#jump_challenges" class="link-dark rounded">Challenges</a></li>
           </ul>
         </div>
       </li>
@@ -135,14 +135,13 @@
       </li>
       <li class="mb-1">
         <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
-          Orders
+          Miscallaneous
         </button>
         <div class="collapse" id="orders-collapse">
           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="#" class="link-dark rounded">New</a></li>
-            <li><a href="#" class="link-dark rounded">Processed</a></li>
-            <li><a href="#" class="link-dark rounded">Shipped</a></li>
-            <li><a href="#" class="link-dark rounded">Returned</a></li>
+            <li><a href="#" class="link-dark rounded">Future</a></li>
+            <li><a href="#" class="link-dark rounded">Maintainence</a></li>
+            <li><a href="#" class="link-dark rounded">Downtime</a></li>
           </ul>
         </div>
       </li>
@@ -153,11 +152,21 @@
   <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" id="content-bg" style="width: 2000px;">
     <span class="fs-1">Documentation</span>
     <hr>
-
-    <span class="content-block">
-        <h3 id="jump_settingup">Setting Up</h3>
+    <span class="fs-2">Introduction</span>
+    <div class="content-block" id="jump_introduction">
+        <h3>Why Documentation?</h3>
+        <p>In order to make Define more usable and for those who want to use Define at a larger scale,</p>
+        <p>I have made this Documentation for both Learners(aka ppl doing Quizzes) and Quizzers(aka ppl making Quizzes)</p>
+        <p>Do take note that Define is mostly Transparent and all code can be found in this <a class="a-nodeco" href="https://github.com/TheReaper62/Define">Github Repository</a>.</p>
+        <p>The code had been made public for <strong><a href="jump_privacypolicy" title="See our Privacy Policy" class="a-nodeco">Transparency Purposes</a></strong> and highly not recommended to be recreated on your localhost</p>
+        <strong>A <a class="a-nodeco" title="Apache License 2.0" href="https://github.com/TheReaper62/Define/blob/main/LICENSE">License</a> file can be found in the Github Repository</strong>
+    </div>
+    <hr>
+    <span class="fs-2">Usage</span>
+    <div class="content-block" id="jump_settingup">
+        <h3>Setting Up</h3>
         <p>Invite the bot to your server or someone else's server* <a href="https://discord.com/oauth2/authorize?client_id=809441761730494534&permissions=248896&scope=bot">here</a></p>
-        <pre>https://discord.com/oauth2/authorize?client_id=809441761730494534&permissions=248896&scope=bot</pre>
+        <pre title="Triple Click Me">https://discord.com/oauth2/authorize?client_id=809441761730494534&permissions=248896&scope=bot</pre>
         <strong>Here's a list of permissions you need to give the bot in order for it to work normally</strong>
         <ul>
             <li><strong>Read Messages</strong> - Allow the bot to read commands and responses</li>
@@ -169,9 +178,11 @@
             <li><strong>Add Reactions</strong> - To enable continous flow of questions</li>
         </ul>
         <cite>* Requires Manage Server permission</cite>
-    </span>
-
+    </div>
     <hr>
+    <div class="content-block" id="jump_roles">
+        <h3>Roles</h3>
+    </div>
     </div>
   </div>
 </main>

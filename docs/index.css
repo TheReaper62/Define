@@ -110,9 +110,11 @@ body {
 }
 
 .hover-enlarge {
+    color: #b9bdba;
     border-radius: 20px;
     font-size: 25px;
-    transition:font-size 0.5s,border-radius 1s;
+    font-weight: bold;
+    transition:font-size 0.2s,border-radius 1s;
 }
 .hover-enlarge:hover {
     font-size: 40px;
