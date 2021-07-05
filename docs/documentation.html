@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Documentation for Define">
+    <meta name="author" content="@Fishball_Noodles">
     <meta name="generator" content="Hugo 0.84.0">
     <link rel="icon" href="images/favicon.png">
     <title>Documentation</title>
@@ -14,7 +14,7 @@
 <link href="bootstrap.min.css" rel="stylesheet">
 
     <!-- Favicons -->
-<link rel="manifest" href="manifest.json">
+<link rel="manifest" href="manifest.json" origin="data">
 <meta name="theme-color" content="#7952b3">
 
 
@@ -100,7 +100,7 @@
 </svg>
 
 <main>
-  <div class="flex-shrink-0 p-3 bg-white" style="width: 190px;position: fixed;">
+  <div class="flex-shrink-0 p-3 bg-white" style="width: 190px;position: fixed;" id="sidenav">
     <a href="index.html" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
       <img src="images/favicon.png" alt="define-logo">
       <span class="fs-5 fw-semibold">Define</span>
@@ -147,10 +147,10 @@
       </li>
     </ul>
   </div>
-  <div class="b-example-divider" style="position:fixed;margin-left: 190px;"></div>
+  <div class="divider" onclick="togglesidebar()" id="sidebarexpanded" style="position:fixed;margin-left: 190px;"></div>
 
   <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" id="content-bg" style="width: 100%;margin-left: 200px;margin-right: 0px">
-    <span class="fs-1">Documentation</span>
+    <span class="fs-1" onclick="dark()">Documentation</span>
     <hr>
     <span class="fs-2">Introduction</span>
     <div class="content-block" id="jump_introduction">
@@ -181,7 +181,66 @@
     </div>
     <hr>
     <div class="content-block" id="jump_roles">
+        <style media="screen">
+            .available {
+                color: #0cb300;
+                font-weight: bold;
+            }
+            .available:hover {
+
+            }
+            .wip {
+                color: #ff5e74;
+                font-weight: bold;
+                font-size: 15px;
+                transition: font-size 0.3s;
+            }
+            .wip:hover {
+              font-size: 18px;
+              animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+              transform: translate3d(0, 0, 0);
+              backface-visibility: hidden;
+              perspective: 1000px;
+            }
+
+            @keyframes shake {
+              10%, 90% {
+                transform: translate3d(-1px, 0, 0);
+              }
+
+              20%, 80% {
+                transform: translate3d(2px, 0, 0);
+              }
+
+              30%, 50%, 70% {
+                transform: translate3d(-4px, 0, 0);
+              }
+
+              40%, 60% {
+                transform: translate3d(4px, 0, 0);
+              }
+            }
+        </style>
+
         <h3>Roles</h3>
+        <p>Roles are essential when using the bot. Having the bot but not having roles is as good as attending school but not taking any subjects.</p>
+        <p><strong>Define</strong> has subjects too!!! Questions are given based off the subjects you enroll yourself for.</p>
+        <p>Here are a list of roles/subjects available:</p>
+        <ol>
+            <li class="available" title="Available">Computing</li>
+            <li class="available" title="Available">Campcraft</li>
+            <li class="available" title="Available">Normal Chinese</li>
+            <li class="wip" title="Work In Progress">Pure Physics</li>
+            <li class="wip" title="Work In Progress">Elective Geography</li>
+        </ol>
+        <cite>In order of Addition</cite>
+        <p>Subjects will be added upon request. Contact <strong>@Fishball_Noodles#7209</strong> on Discord for more Info</p>
+        <br>
+        <p>To enroll yourself for a subject, run this command where the bot can see it: <pre>def roles</pre></p>
+        <img src="images/roles_list.png" alt="Role List Image" style="max-width: 100%;max-height: 30%;">
+        <p>The bot will reply you with a list of <strong>Subjects Available</strong> with thier respective Indexes.</p>
+        <p>Respond promptly to the message. For Example, if you want <strong>Normal Chinese</strong> you would send the message <strong>3</strong></p>
+        <cite>Do note that the picture above is different for every User. Yours may not be 3 for Normal Chinese</cite>
     </div>
     </div>
   </div>

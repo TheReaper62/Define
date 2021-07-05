@@ -19,7 +19,7 @@ main {
   overflow-y: scroll
 }
 
-.b-example-divider {
+.divider {
   flex-shrink: 0;
   width: 10px;
   height: 100vh;
