@@ -340,9 +340,6 @@ async def generate_question(message,subject="Random",challenge=False):
                 ))
             del CHALLENGE_RESPONSE[i]
 
-        #Delete Shit
-        await gay.delete()
-
         #Sort by score
         sorted = []
         pre = 0
@@ -385,6 +382,14 @@ async def generate_question(message,subject="Random",challenge=False):
 
         results.add_field(name="Game Statistics",value=stats)
         await message.channel.send(embed=results)
+        try:
+            reaction, user = await client.wait_for('reaction_add', timeout=20.0, check=check)
+        except asyncio.TimeoutError:
+            await msg.remove_reaction('👍', client.user)
+        else:
+            await generate_question(ctx.message,subject=subject,challenge=ctx.channel.id)
+
+
     else:
         #Logging
         if subject != "ignore" or message.author.id in FromDatabase("ADMIN"):
