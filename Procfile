@@ -1,1 +1,1 @@
-worker: python3 define_bot.py
+worker: python3 app.py
