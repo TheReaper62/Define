@@ -1,2 +1,2 @@
 git+https://github.com/Pycord-Development/pycord
-requests=2.26
+requests==2.26
