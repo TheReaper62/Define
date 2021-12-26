@@ -4,8 +4,9 @@ import requests, time
 import discord
 
 client = discord.Client()
-BASE_URL = "https://datacordapp.herokuapp.com"
+# BASE_URL = "https://datacordapp.herokuapp.com"
 # BASE_URL = "http://127.0.0.1:5000/"
+BASE_URL = "http://datacord.vercel.app"
 
 def attempt_connection():
     auth_params = {"name": "Define_Client", "intent": "DefineApp/Database"}
@@ -81,14 +82,19 @@ async def on_message(message):
                 title = f"{message.author.name}'s Profile",
                 colour = discord.Colour.random()
             ).set_footer(text=f'User ID: {message.author.id}')
+
+            place = []
+            count = 0
             for i in data['history']:
                 if len(embed)>5800:
                     return
                 embed.add_field(
-                    name=f"~\n**{i}**",
+                    name=f"~\n**{i.title()}**",
                     value=f"Last Searched on <t:{data['history'][i]['last']}>\nSearched **{data['history'][i]['rep']}** time(s)",
                     inline = False
                 )
+
+            
             await message.channel.send(embed=embed)
     else:
         if "<@809441761730494534>" in message.content:
@@ -118,7 +124,6 @@ async def on_message(message):
                     else:
                         data = {'joined':int(time.time()),'history':{}}
                     if message.content.lower() in data['history']:
-                        print(data['history'][message.content.lower()]['rep'])
                         rep = data['history'][message.content.lower()]['rep']+1
                     else:
                         rep = 1
