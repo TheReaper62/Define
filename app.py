@@ -40,8 +40,8 @@ def verify_answer() -> str:
 
     score: int = calculate_correctness(raw_definitions[term], response)
     if score >= 70:
-        return "Your response looks good — Model Answer: {}".format(raw_definitions[term])
-    return "Your response is insufficient — Model Answer: {}".format(raw_definitions[term])
+        return "Your response looks good, Model Answer: {}".format(raw_definitions[term])
+    return "Your response is insufficient, Model Answer: {}".format(raw_definitions[term])
 
 if __name__ == '__main__':
     print("App is running")
