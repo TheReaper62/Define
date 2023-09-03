@@ -1,0 +1,146 @@
+# H2 Physics 9749 (2023) Definitions
+---
+SECTION I MEASUREMENT:
+  Chapter 1 Measurement:
+    Scalar: A scalar quantity is one which has magnitude but no direction.
+    Vector: A vector is a quantity which has direction as well as magnitude.
+
+SECTION II NEWTONIAN MECHANICS:
+  Chapter 2 Kinematics:
+    Displacement, s: Total distance moved by an object along a particular direction.
+    Speed: The rate of change of distance with respect to time.
+    Velocity, v: The rate of change of displacement with respect to time.
+    Acceleration, a: The rate of change of velocity with respect to time.
+    Average speed/velocity: The average rate of change of distance/displacement with respect to time.
+    Instantaneous Velocity: The rate of change of displacement with respect to time at a particular time.
+  Chapter 3 Dynamics:
+    Newton's First Law: A body continues in its state of rest or uniform motion in a straight line unless a resultant external force acts on it.
+    Newton's Second Law: The rate of change of momentum of a body is proportional to the resultant force acting on it and occurs in the direction of the force.
+    Newton's Third Law: If body A exerts a force on body B, then body B exerts an equal but opposite force on body A.
+    Linear  Momentum: The product of the mass of an object and its velocity.
+    Impulse: Area under the force-time graph.
+    Force, F: The rate of change of momentum.
+    Principle of Conservation of Momentum: Total momentum of a system remains constant provided no external resultant forces act on the system.
+    Inertia: Reluctance of a body to start moving or to change its state motion.
+    Equilibrium: When the state of an object remains unchanged even though two or more forces are acting on it.
+  Chapter 4 Forces:
+    Hooke's Law: The force needed to cause an extension in a spring is directly proportional to its extension.
+    Upthrust, U: It is the upward force acting on an object that is partially or fully immersed in a fluid.
+    Equilibrium: A system is in equilibrium if there is no resultant force and no resultant torque acting on it.
+    Centre of Gravity: The point at which all the weight of an object may be considered to be acting.
+    Couple: A couple consists of a pair of parallel forces of equal magnitude but opposite direction whose lines of action do not coincide.
+    Moment of a Force: Moment of a force about a point is the product of the force with the perpendicular distance of the force from that point.
+    Torque of a Couple, τ: The torque of a couple is the product of one of the forces with the perpendicular separation between the couple.
+    Archimedes' Principle: An object immersed fully or partially in a fluid experiences a buoyant force equal in magnitude to the weight of the fluid displaced.
+    Centre of Mass: The point at which all of the mass of an object or system may be considered to be concentrated.
+    Principle of Flotation: An object floating in a fluid always displaces its own weightof fluid.
+    Rotational Equilibrium: A system is in rotational equilibrium if there is no resultant torque.
+  Chapter 5 Work, Energy and Power:
+    Work Done: The product of a force and the displacement in the direction of the force.
+    Power: Work done per unit time.
+  Chapter 6 Motion in a Circle:
+    Angular Velocity, ω: The rate of change of angular displacement with respect to time.
+    Centripetal Acceleration Acceleration: which is always perpendicular to the velocity and always acts towards the centre of the circular motion.
+    Uniform Circular Motion: The motion of an object moving in circular path at constant speed with constant angular velocity.
+    Centripetal Force: The resultant perpendicular force acting on an object moving in circular motion
+  Chapter 7 Gravitational Field:
+    Gravitational Field: A gravitational field due to a body is a region in space in which another body placed in the region experiences a force of attraction by the first body.
+    Newton's Law of Gravitation/Gravitational Force: The force of attraction between two point masses is directly proportional to the product of their masses and inversely proportional to the square of their distance apart.
+    Gravitational Field Strength, g: The gravitational field strength at a point is the gravitational force per unit mass experienced by a mass placed at that point.
+    Gravitational Potential, φ: Gravitational potential at a point is the work done per unit mass by an external agent in bringing a mass from infinity to that point without a change in kinetic energy. 
+    Gravitational Potential Energy: The Gravitational Potential Energy of a mass is defined as the work done by an external agent in bringing the mass from infinity to its present location without any change in kinetic energy.
+  Chapter 8 Oscillations:
+    Amplitude: The maximum displacement from the equilibrium position.
+    Period, T: The time taken to complete one cycle of oscillation.
+    Frequency, ƒ: The number of complete cycles per second made by the oscillating object.
+    Simple Harmonic Motion: The motion of the body whose acceleration is directly proportional to its displacement from equilibrium and is always directed towards equilibrium.
+    Resonance: The tendency of a system to oscillate at maximum amplitude at its natural frequency.
+    Forced Oscillation: When the system is forced to oscillate at a frequency other than the natural frequency by a periodic external force.
+    Natural Frequency: The frequency of oscillation when a system oscillates freely without any external force applied.
+    Displacement, s: The distance of the oscillating object from its equilibrium position at any instant.
+
+SECTION III THERMAL PHYSICS:
+  Chapter 9 Thermal Physics:
+    Internal Energy: The sum of the microscopic kinetic and potential energies of the molecules that make up the system.
+    Thermal Equilibrium: When two objects in thermal contact cease to have any exchange of heat.
+    Absolute Zero: The theoretical temperature at which the molecules of a substance has minimum internal energy.
+    Kelvin, K: The Kelvin is defined as 1/273.16 of the temperature difference between absolute zero and the triple point of water.
+    Specific Heat Capacity, c: It is the quantity of heat required to raise the temperature of 1kg of the body by 1K.
+    Latent Heat: It is the thermal energy required by matter for a change in phase.
+    Specific Latent Heat of Fusion: It is the thermal energy required for 1kg of substance to change from the solid phase to the liquid phase without a change in temperature.
+    Specific Latent Heat of Vaporisation: It is the thermal energy required for 1kg of substance to change from the liquid phase to the gaseous phase without a change in temperature.
+    First Law of Thermodynamics: The increase in the internal energy of a system is equal to the sum of the heat supplied to the system and the work done on the system.
+    Triple Point of Water: The particular temperature and pressure at which the three states of water can co-exist in equilibrium.
+    Heat Capacity: The quantity of heat required to raise the temperature of the body by 1K.
+    Ideal Gas: A gas in which all collisions between the atoms and molecules are perfectly elastic and which there are no intermolecular attractive or repulsive forces.
+
+SECTION IV WAVES:
+  Chapter 10 Wave Motion:
+    Wavelength, λ: The distance between corresponding points in successive waveforms, such as two successive crests or two successive troughs.
+    Intensity, I: The amount of energy incident per unit area per unit time.
+    Phase: The stage of motion of the particle with respect to other particles in the same wave or another wave.
+    Transverse Waves: A transverse wave is one in which particles of the medium move in a direction perpendicular to the direction of travel of the wave.
+    Longitudinal Waves: A longitudinal wave is one in which particles of the medium move in a direction parallel to the direction of travel of the wave.
+    Polarised Waves: All particles vibrate in the same plane at all times
+    Electromagnetic Radiation: A self-propagating transverse wave in space with electric and magnetic components.
+  Chapter 11 Superposition:
+    Principle of Superposition: The principle of superposition states that the resultant displacement at any point is the vector sum of the individual displacement due to each wave arriving at that point.
+    Diffraction: Bending of waves through an aperture or around an obstacle.
+    Interference: The superposition of two or more coherent waves to give a resultant wave whose resultant amplitude is given by the principle of superposition.
+    Coherence: Sources having constant phase difference.
+
+SECTION V ELECTRICITY AND MAGNETISM:
+  Chapter 12 Electric Fields:
+    Electric Field Strength, E: The electric field strength at a point is defined as the force per unit charge acting on a small positive test charge placed at that point.
+    Coulomb's Law: The force between two point charges is directly proportional to the product of the charges and inversely proportional to the square of the distance between the charges.
+    Uniform Electric Field: Electric field strength is equal in magnitude and has the same direction at all points in the region.
+    Electric Potential, φ: The electric potential at a point in an electric field is the work done per unit charge in bringing a positive test charge from infinity to the point without a change in kinetic energy.
+  Chapter 13 Current of Electricity:
+    Electric Current, I: The net amount of charge passing through a point per unit time.
+    Coulomb, C: One coulomb is the quantity of electric charge that passes a given point in a circuit in one second when there is a constant current of one ampere.
+    Potential Difference, E: The potential difference between two points in a circuit is the amount of electric energy that is converted to other forms of energy when a unit charge passes from one point to the other.
+    Volt, V: One volt is the potential difference between two points in a circuit in which one joule of energy is converted when one coulomb of charge passes from one point to the other.
+    Resistance, R: The electrical resistance of a conductor is defined as the ratio of the p.d. across it to the current through it.
+    Ohm, Ω: One ohm is defined as the resistance of a conductor in which a current of one ampere passes through it when the p.d. across it is one volt.
+    Electromotive Force (e.m.f.): The e.m.f. of a source is defined as the amount of energy converted from other forms to electrical energy when the source drives a unit charge round a complete circuit.
+    Ampere, A: One coulomb per second.
+  Chapter 15 Electromagnetism:
+    Magnetic Flux Density, B: The flux density of a magnetic field is the force per unit length on a straight conductor carrying unit current placed perpendicularly to the field.
+    Tesla, T: The magnetic flux density of a magnetic field is one tesla if the force acting on 1m length of a conductor carrying 1A of current placed perpendicular to the field is 1N.
+    Electronvolt, eV: The electronvolt is the energy gained by an electron when it is accelerated through a p.d. of one volt.
+  Chapter 16 Electromagnetic Induction:
+    Magnetic Flux, φ: Magnetic flux through a plane surface is the product of the area and the magnetic flux density that passes through the area perpendicularly.
+    Weber: One weber is the magnetic flux if a field of flux density one tesla exists at right angles to an area of one metre square.
+    Magnetic Flux Linkage, Φ: The magnetic flux linkage of a coil is the magnetic flux passing through each turn of the coil multiplied by the number of turns of the coil.
+    Faraday's Law: Whenever there is a change in magnetic flux linkage of a circuit or coil, an electromotive force is induced in the circuit and the magnitude is directly proportional to the rate of change of magnetic flux linkage of the circuit or coil.
+    Lenz's Law: The direction of the induced current is such as to oppose the change in flux which causes it.
+  Chapter 17 Alternating Current:
+    R.M.S of AC: It is the value of the steady direct current which would dissipate heat at the same rate in a given resistance as the alternating current.
+    Mean Power: Mean power dissipated by a resistive load is half the maximum power for a sinusoidal AC.
+    Sinusoidal AC: Current varies periodically with time
+    Sinusoidal Voltage: Voltage varies periodically with time and direction.
+    Rectification of an AC: Conversion of AC to DC.
+    Half-wave Rectification: For half the cycle, the diode allows current to flow but for the other half of the cycle, the current flow is very small due to the high resistance of the diode being in reverse bias.
+
+SECTION VI MODERN PHYSICS:
+  Chapter 18 Quantum Physics:
+    Photoelectric Effect: The emission of electrons from a metal as a result of light with sufficiently short wavelength falling on it.
+    Work function, Φ: The work function of a material is defined as the minimum amount of energy required to remove a free electron from the surface of a material
+    Potential Barrier: A potential barrier is a region within which the potential energy of the particle is much higher than immediately outside it.
+    Photon: A quantum of electromagnetic energy.
+    Ionisation Energy: Minimum energy required to remove an electron completely from the atom.
+    Ionisation: The process of creating charged particles.
+  Chapter 20 Nuclear Physics:
+    Nucleon Number (Mass Number): The number of protons and neutrons in the nucleus.
+    Proton Number (Atomic Number): The number of protons in the nucleus.
+    Neutron Number: The number of neutrons in the nucleus.
+    Mass Defect: The difference between the sum of the individual masses of protons and neutrons and the mass of a nucleus.
+    Binding Energy: The amount of energy needed to split a nucleus into its individual nucleons.
+    Binding Energy per Nucleon: Binding energy divided by the mass or nucleon number of the nucleus.
+    Nuclear Fusion: Process by which nuclei with mass numbers lower than 56 combine to form nuclei of higher mass numbers which are more stable.
+    Nuclear Fission: Process by which nuclei of mass numbers larger than 56 break up to form lighter nuclei which are more stable.
+    Activity, A: The number of atoms of a radioactive substance that decay per unit time.
+    Decay constant: The probability of decay per nucleus per unit time.
+    Half life: Half life of a radioactive element is the time taken for a sample of atoms to decay to half their initial number.
+    Radioactivity: The spontaneous emission of alpha, beta or gamma radiation by a parent nucleus which results in more than 1 daughter nucleus.
+...
